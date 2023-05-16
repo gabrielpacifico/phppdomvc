@@ -121,8 +121,6 @@ class Posts extends Controller
             ];
         }
 
-        var_dump($form);
-
         $this->view('posts/editar', $dados);
     }
 
