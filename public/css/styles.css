@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300&family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 29px;
+}
+
+#mvc{
+    margin-top: 30px;
+    margin-bottom: 10%;
+    padding-bottom: 10%;
+    width: 80%;
+}
+
+#navbar{
+    background: #292b2c;
+}
+
+#footer{
+    background: #292b2c;
+    margin-top: 10%;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+#btn-header{
+    padding: 10px;
+    background: #FFFFFF;
+    color: #000000;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+}
+
+#btn-header:hover{
+    background: #292b2c;
+    color: #FFFFFF;
+    transition: 0.3s;
+    border: 1px solid #FFFFFF;
+}
+
+#btn-logout{
+    text-decoration: none;
+    padding: 6px;
+    background: #b43030;
+    margin-left: 20px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #b43030;
+}
+
+#session{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+#breadcrumb{
+    background: #e2e2e2;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#breadcrumb a{
+    text-decoration: none;
+}
