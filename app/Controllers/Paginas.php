@@ -7,11 +7,7 @@ class Paginas extends Controller{
             Url::redirect('posts');
         }
 
-        $dados = [
-            'tituloPagina' => 'Página Inicial',
-        ];
-
-        $this->view('pages/home', $dados);
+        $this->view('pages/home');
     }
 
 

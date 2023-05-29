@@ -39,19 +39,19 @@ class Database
         if(is_null($type)){
             switch(true){
                 case is_int($value);
-                    $type = PDO::PARAM_INT;
+                    $type = PDO::PARAM_INT; // Caso o tipo seja int, defina como int.
                 break;
 
                 case is_bool($value);
-                    $type = PDO::PARAM_BOOL;
+                    $type = PDO::PARAM_BOOL; // Caso o tipo seja bool, defina como bool.
                 break;
 
                 case is_null($value);
-                    $type = PDO::PARAM_NULL;
+                    $type = PDO::PARAM_NULL; // Caso o tipo seja null, defina como null.
                 break;
 
                 default;
-                $type = PDO::PARAM_STR;
+                $type = PDO::PARAM_STR; // Caso não seja nenhum valor dos acima, default define como string.
             }
         }
 

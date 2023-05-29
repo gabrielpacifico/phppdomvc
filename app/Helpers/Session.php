@@ -2,7 +2,7 @@
 
 class Session{
 
-    public static function mensagem($nome, $texto = null, $classe = null){
+    public static function mensagem($nome, $texto = null, $classe = null){ // Mensagem de confirmação ou de erro. ($texto = texto da mensagem, $classe = classe do bootstrap)
 
         if(!empty($nome)){
 
